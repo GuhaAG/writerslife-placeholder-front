@@ -36,9 +36,10 @@ export default {
 
       var $ = require("jquery");
       var Swal = require("sweetalert2");
+      var config = require("../../config/index.js");
 
       $.ajax({
-        url: "http://52.198.61.205:8081/api/subscribe",
+        url: config.apiUrl+"api/subscribe",
         dataType: "json",
         type: "POST",
         contentType: "application/json; charset=utf-8",
