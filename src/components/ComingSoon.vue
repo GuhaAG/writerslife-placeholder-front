@@ -78,12 +78,13 @@ h1 {
 h2 {
   position: relative;  
   left: 10%;
-  margin-right: 10%;
+  margin-right: 20%;
   color: beige;
 }
 div.email-form {
   position: relative;  
   left: 10%;
+  margin-right: 20%;
   color: beige;
 }
 div.footer-credits {
